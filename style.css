@@ -1,0 +1,18 @@
+h1 {
+            color: whitesmoke;
+            font-size: 50px;
+            background-color: black;
+
+        }
+        p{
+            color: red;
+            background-color: black;
+          
+            font-size: 100px;
+           
+        }
+        button{
+            color: black;
+            background-color: red;
+            
+        }

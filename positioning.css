@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+/* relative position
+the position will change to opposite direction positive left value mean move to right .positive right value move to left direction 3.negative minus  left value mean out of the frame the content will move  4.right negative minus value mean content move to right direction*/
+
+/* .postionchanging{
+    position: relative;
+    left: 500px;
+    /* right: 5px;not work */
+    
+    /* left: -50px; */
+    /* top: 5px;                                     absolute and relative is same 
+    /* bottom: 5px; */
+    /* background-color: black;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    
+} */ 
+ /* absolute position */
+ /* the position will change (right 0 top mean same direction content will move to right top) (right 100px top mean content move in opposite direction) (left 0 top mean content will move to left) (left0 bottom mean content will move to left bottom) (right0 bottom mean content will move to right bottom)*/
+/* .postionchanging{
+    position: absolute;
+    right: 1100px;
+    top: 0;
+   
+
+     background-color: black;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    
+
+} */
+.postionchanging{
+    position: fixed;
+    left: 1000px;
+    top: 0;
+   
+
+     background-color: black;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    
+
+}

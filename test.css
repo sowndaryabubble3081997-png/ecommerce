@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/* media query responsive
+print 
+screen  */
+
+.box1 h1 {
+    width: 80px;
+    padding: 15px;
+    background-color: purple;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    
+
+}
+.box1 p {
+    text-align: justify;
+    margin: 20px;
+    background-color: purple;
+    color: white;
+    border-radius: 8px;
+
+}
+/* responsive design */
+
+@media print {
+    .box1 h1  {
+        color: blue;
+    }
+    .box1 p {
+        color: brown;
+        text-align: justify;
+        max-width: 500px;
+
+    }
+
+};

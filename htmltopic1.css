@@ -1,0 +1,250 @@
+.header{
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 300px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    height: auto;
+    background-color: orange;
+}
+
+
+
+
+
+
+
+.grid{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            margin-left: 310pX;
+            margin-top: 80px;
+            margin-bottom: 5px;
+       
+            
+            }
+            .g1{
+                width: 200px;
+                height: 200px;
+                background: #ddd;
+               
+            }
+                
+                
+
+                .g2{
+                width: 200px;
+                height: 200px;
+                margin-left: 5px;
+                background: #ddd;
+               
+            }
+            .g3{
+                width: 200px;
+                height: 200px;
+                margin-left: 6px;
+                 background: #ddd;
+            }
+            .g4{
+                width: 200px;
+                height: 200px;
+                margin-left: 3px;
+                margin-top: 20px;
+                 background: #ddd;
+            }
+            .g5{
+                width: 200px;
+                height: 200px;
+                margin-left: 3px;
+                margin-top: 20px;
+                 background: #ddd;
+            }
+                .g6{
+                width: 200px;
+                height: 200px;
+                margin-left: 3px;
+                margin-top: 20px;
+                 background: #ddd;
+            }
+            .g1 img{
+                width: 200px;
+                height: 200px;
+                background: #ddd;
+               
+            }
+            .g2 img{
+                width: 200px;
+                height: 200px;
+                background: #ddd;
+               
+            }
+            .g3 img{
+                width: 200px;
+                height: 200px;
+                background: #ddd;
+               
+            }
+            .g4 img{
+                width: 200px;
+                height: 200px;
+                background: #ddd;
+               
+            }
+            .g5 img{
+                width: 200px;
+                height: 200px;
+                background: #ddd;
+               
+            }
+            .g6 img{
+                width: 200px;
+                height: 200px;
+                background: #ddd;
+               
+            }
+             
+            
+            .profile img{
+                margin-left: 100px;
+                margin-top: 10px;
+                width: 200px;
+                height: 200px;
+                border-radius: 80px;
+
+            }
+            @media((min-width:300px)and (max-width:768px)) {
+                .header{
+                    width: 300px;
+                    height: 400px;
+                    margin-left: 0px;
+                    margin-right: 0px;
+
+
+                }
+                
+            }
+            @media((min-width:300px)and (max-width:768px)) {
+                .profile img{
+                    width: 80px;
+                    height: 80px;
+                    margin-left: 20px;
+
+                }
+
+                
+            }
+            @media((min-width:300px)and (max-width:768px)){
+                .grid{
+                    margin: 2px;
+                    margin-top: 50px;
+                    
+                }
+            }
+           @media((min-width:300px)and (max-width:768px)) {
+                .g1 {
+                    margin: 2px;
+                    width: 80px;
+                    height: 80px;
+                    
+                }
+            }
+            
+            @media((min-width:300px)and (max-width:768px)) {
+                .g1 img{
+                    margin: 2px;
+                    width: 80px;
+                    height: 80px;
+                    
+                }
+            }
+            @media((min-width:300px)and (max-width:768px)) {
+                .g2 {
+                   
+                    width: 80px;
+                    height: 80px;
+                    
+                }
+            }
+            
+            @media((min-width:300px)and (max-width:768px)) {
+                .g2 img{
+                    margin-left: 2px;
+                    width: 80px;
+                    height: 80px;
+                    
+                }
+            }
+            @media((min-width:300px)and (max-width:768px)) {
+                .g3 {
+                    margin-left:2px;
+                   
+                    width: 80px;
+                    height: 80px;
+                    
+                }
+            }
+            @media((min-width:300px)and (max-width:768px)) {
+                .g3 img{
+                    margin: 0px;
+                    width: 80px;
+                    height: 80px;
+                    
+                }
+            }
+            @media((min-width:300px)and (max-width:768px)) {
+                .g4 {
+                    margin-left:2px;
+                   
+                    width: 80px;
+                    height: 80px;
+                    
+                }
+            }
+            @media((min-width:300px)and (max-width:768px)) {
+                .g4 img {
+                    margin-left:2px;
+                   
+                    width: 80px;
+                    height: 80px;
+                    
+                }
+            }
+            @media((min-width:300px)and (max-width:768px)) {
+                .g5 {
+                    margin-left:2px;
+                   
+                    width: 80px;
+                    height: 80px;
+                    
+                }
+            }
+            @media((min-width:300px)and (max-width:768px)) {
+                .g5 img {
+                    margin-left:2px;
+                   
+                    width: 80px;
+                    height: 80px;
+                    
+                }
+            }
+            @media((min-width:300px)and (max-width:768px)) {
+                .g6{
+                    margin-left:2px;
+                   
+                    width: 80px;
+                    height: 80px;
+                    
+                }
+            }
+            @media((min-width:300px)and (max-width:768px)) {
+                .g6 img {
+                    margin-left:2px;
+                   
+                    width: 80px;
+                    height: 80px;
+                    
+                }
+            }
+            
+            

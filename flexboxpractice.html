@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+</head>
+<style>
+    /* parent properties */
+    .position{
+        position: fixed;
+        top: 10px;
+        left:  500px;
+        color: aqua;
+        font-size: 200px;
+        background-color: black;
+    }
+    .flex{
+         padding: 20px;
+        margin: 20px;
+        border: 20px solid red;
+        
+       
+        display: flex;
+        flex-direction: column;
+         gap: 100px;
+         /* justify-content: center;
+ 
+        align-items: baseline;
+        
+        flex-wrap: wrap;
+        
+        flex-flow: row;
+        */
+
+    }
+    /* child properties */
+    .box1{
+        margin-left: 0px;
+        padding-left: 0px;
+        width: 100px;
+        /* height: 200px; */
+        background-color: red;
+        order: 2;
+        flex-grow: 20;
+
+    }
+    .box2{
+        margin:  30px;
+        padding: 10px;
+         border-radius: 5px ;
+         border-bottom: 10;
+        width: 10px;
+       /* height: 500px; */
+        background-color: black;
+        color: white;
+        order: 3;
+        flex-grow: 10;
+        flex-shrink:  2;
+        flex-basis: auto;
+        
+       
+
+
+    }
+    .box3{
+        margin-left: 0px;
+        padding-left: 0px;
+        width: 200px;
+        /* height: 200px; */
+        background-color: blue;
+        order: 1;
+        flex-grow: 30;
+        flex: 10 2 auto;
+
+    }
+</style>
+<body>
+    <div class="position">hello</div>
+    <div class="flex">
+        <div class="box1">Lorem, My name is [Your Name], and I am [Your Age] years old.
+I am a student at [School Name], studying in [My name is [Your Name], and I am [Your Age] years old.
+I am a student at [School Name], studying in [Class/Grade].
+I live in [City/Country] with my family.
+My favorite subject is [Subject], and I enjoy learning about it.
+I love to play [Sport/Hobby] in my free time.Class/Grade].
+I live in [City/Country] with my family.
+My favorite subject is [Subject], and I enjoy learning about it.
+I love to play [Sport/Hobby] in my free time.or even a short story. For a personal description, you could say: "My name is [Your Name], and I am a dedicated student who enjoys learning new things. I live in [City/Country] with my family. In my free time, I love to play [Sport/Hobby] and listen to English music. I find that English helps me express my thoughts clearly. I am a hard-working and honest person who isn't afraid to face ipsum dolor sit amet consectetur adipisicing elit. Voluptas, excepturi! Cum voluptatum dicta voluptate repellendus temporibus earum qui inventore, totam suscipit sequi facere incidunt aliquam minus voluptatibus fugit dignissimos eos?</div>
+        <div class="box2">My name My name is [Your Name], and I am [Your Age] years old.
+I am a student at [School Name], studying in [Class/Grade].
+I live in [City/Country] with my family.My name is [Your Name], and I am [Your Age] years old.
+I am a student at [School Name], studying in [Class/Grade].
+I live in [City/Country] with my family.My name is [Your Name], and I am [Your Age] years old.
+I am a student at [School Name], studying in [Class/Grade].
+I live in [City/Country] with my family.My name is [Your Name], and I am [Your Age] years old.
+I am a student at [School Name], studying in [Class/Grade].
+I live in [City/Country] with my family.
+My favorite subject is [Subject], and I enjoy learning about it.
+I love to play [Sport/Hobby] in my free time.1.My name is [Your Name], and I am [Your Age] years old.
+I am a student at [School Name], studying in [Class/Grade].
+I live in [City/Country] with my family.
+My favorite subject is [Subject], and I enjoy learning about it.
+I love to play [Sport/Hobby] in my free time.2.My name is [Your Name], and I am [Your Age] years old.
+I am a student at [School Name], studying in [Class/Grade].
+I live in [City/Country] with my family.
+My favorite subject is [Subject], and I enjoy learning about it.
+I love to play [Sport/Hobby] in my free time.3.My name is [Your Name], and I am [Your Age] years old.
+I am a student at [School Name], studying in [Class/Grade].
+I live in [City/Country] with my family.
+My favorite subject is [Subject], and I enjoy learning about it.
+I love to play [Sport/Hobby] in my free time.
+My favorite subject is [Subject], and I enjoy learning about it.
+I love to play [Sport/Hobby] in my free time.
+My favorite subject is [Subject], and I enjoy learning about it.
+I love to play [Sport/Hobby] in my free time.
+My favorite subject is [Subject], and I enjoy learning about it.
+I love to play [Sport/Hobby] in my free time.is [Your Name], and I am [Your Age] years old.
+I am a student at [School Name], studying in [Class/Grade].
+I live in [City/Country] with my family.
+My favorite subject is [Subject], and I enjoy learning about it.
+I love to play [Sport/Hobby] in my free time.1. or even a short story. For a personal description, you could say: "My name is [Your Name], and I am a dedicated student who enjoys learning new things. I live in [City/Country] with my family. In my free time, I love to play [Sport/Hobby] and listen to English music. I find that English helps me express my thoughts clearly. I am a hard-working and honest person who isn't afraid to faceLorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, odit. Ipsum sunt nulla doloribus asperiores, error inventore accusamus corporis ullam dicta aliquid ducimus est, blanditiis hic, veritatis quia consectetur sed?Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum consequatur hic aperiam neque veniam, voluptatum, ipsam autem quaerat corrupti accusantium repellat sunt placeat recusandae quidem accusamus expedita. Exercitationem, est nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis soluta distinctio tempore, autem deleniti at non numquam adipisci aperiam maxime dolor beatae totam exercitationem sapiente consectetur vel eaque expedita id!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum at excepturi aspernatur explicabo porro vitae, et aliquam sint rerum, quae facere hic delectus velit magnam corrupti soluta assumenda! Ullam, distinctio.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur dignissimos tempore sunt consequatur repellendus laborum fuga sequi dolorem molestias, dicta placeat quaerat. Accusamus nihil delectus beatae error, suscipit dolorem perspiciatis!Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nam veniam aspernatur tenetur doloremque, architecto quo? Odit cumque perspiciatis nesciunt non quod. Odio error odit maxime aspernatur tempore non quaerat..Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit officia pariatur doloribus ratione. Modi et, consectetur inventore nobis, ipsam natus ratione est iste eum laborum impedit, dignissimos perferendis eligendi reprehenderit?.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis iste laboriosam est suscipit accusamus ut, voluptates adipisci debitis natus odio esse iusto ea at. Pariatur dicta earum reiciendis ipsum aspernatur..Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut expedita similique incidunt aut beatae voluptatibus porro itaque provident! Sunt voluptatum quaerat quas cumque, architecto repudiandae impedit aspernatur eos iure nisi!</div>
+        <div class="box3">25.Lorem A 10-line description can be about many things, such as a personal introduction, a favorite subject, or even a short story. For a personal description, you could say: "My name is [Your Name], and I am a dedicated student who enjoys learning new things. I live in [City/Country] with my family. In my free time, I loveMy name is [Your Name], and I am [Your Age] years old.
+I am a student at [School Name], studying in [Class/Grade].
+I live in [City/Country] with my family.
+My favorite subject is [Subject], and I enjoy learning about it.
+I love to play [Sport/Hobby] in my free time. to play [Sport/Hobby] and listen to English music. I find that English helps me express my thoughts clearly. I am a hard-working and honest person who isn't afraid to face a challenge. I am passionate about my work and believe in getting the job done efficiently.". .Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere excepturi nemo porro recusandae error consectetur, praesentium eos pariatur iste, alias repudiandae dolorem perferendis vel assumenda voluptate molestias asperiores ab voluptatum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quisquam exercitationem autem molestias! Nostrum dolore soluta dolores sapiente voluptate sunt odio! Ullam corrupti nisi quibusdam hic dolore porro, qui consequuntur.</div>
+        
+    </div>
+
+    
+</body>
+</html>

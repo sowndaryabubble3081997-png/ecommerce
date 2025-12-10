@@ -1,0 +1,33 @@
+/*CSS SELECTORS*/
+
+/*
+Beginner selector
+*/
+/* universal selector */
+*
+{
+    color: crimson;
+    font-size: 20px;
+    font-style: oblique;
+    
+    
+}
+/* element selector */
+h2 {
+    padding: 40px;
+    color: cornflowerblue;
+    background-color: chartreuse;
+    text-decoration: overline;
+    text-shadow: 3px;
+    text-align: center;
+    cursor: progress;
+   
+
+}
+form {
+    color: black;
+    background-color: gray;
+    font-style: oblique;
+    font-family: cursive;
+    
+}

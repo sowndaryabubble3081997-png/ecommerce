@@ -1,0 +1,132 @@
+*{
+    box-sizing: content-box;
+    padding: 10px;
+    margin: 7px;
+    border: solid pink;
+
+}
+/* flex box containers */
+.flexcontainers{
+     /* width: 50px; */
+    /* height: 50px; */
+
+    display: flex; 
+    flex-direction: row;
+    /* justify-content: flex-end;  */
+    align-content: center;
+    flex-wrap: wrap; 
+ 
+   
+    column-gap: 12px;
+    /* flex: 1 30px; */
+    } 
+.box-1{
+    
+    /* width: 100px;  */
+    height: 100px;
+    flex-basis: 100px; 
+    flex-shrink: 0;
+    
+    margin-right: 7;
+    background-color: palegreen;
+  
+    }
+.box-2{
+    
+      /* width: 100px; */
+    /* height: 100px;  */
+    
+    margin-right: 7;
+    background-color: black;
+    color: white;
+    /* order: 1; */
+
+
+}
+.box-3{
+     /* width: 100px; */
+    height: 50px;
+    
+    /* align-self: stretch; */
+    /* margin-right: 7; */
+    background-color: palegreen;
+    /* order: 2; */
+
+}
+.box-4{
+     width: 100px;
+    height: 500px;
+   
+    /* margin-right: 7; */
+    background-color: black;
+    color: white;
+    flex-grow: 0;
+     /* order: 2; */
+
+}
+.box-5{
+     width: 50px;
+    height: 100px;
+    /* margin-right: 7; */
+    background-color: palegreen;
+    /* order: 1; */
+
+}
+.box-6{
+    width: 50px;
+    height: 100px;
+    /* margin-right: 7; */
+    background-color: black;
+    color: white;
+    
+
+}
+.box-7{
+    
+    width: 50px;
+    height: 100px;
+    /* margin-right: 7; */
+    background-color: palegreen;
+    
+}
+.box-8{
+    
+      width: 50px;
+    height: 100px; 
+    /* margin-right: 7; */
+    background-color: black;
+    color: white;
+
+}
+.box-9{
+     width: 50px;
+    height: 100px;
+    /* margin-right: 7; */
+    background-color: palegreen;
+
+}
+.box-10{
+     width: 50px;
+    height: 100px;
+    /* margin-right: 7; */
+    background-color: black;
+    color: white;
+
+}
+.box-11{
+     width: 50px;
+    height: 100px;
+    /* margin-right: 7; */
+    background-color: palegreen;
+
+}
+.box-12{
+    width: 50px;
+    height: 100px;
+    /* margin-right: 7; */
+    background-color: black;
+    color: white;
+    
+
+}
+

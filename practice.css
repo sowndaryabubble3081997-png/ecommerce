@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* responsive design */
+@media   (max-width: 700px) {
+    .practice nav ul{
+        display: none;
+        flex-direction: column;
+        background-color: brown;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        width: 200px;
+
+    }
+    
+}
+@container box1container ( (max-width: 800px  min-width: 200px))
+{
+p{  width: 300px;
+    background-color: red;
+
+}
+}
